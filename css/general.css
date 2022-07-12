@@ -1,0 +1,35 @@
+#usersTable,
+#usersTable,
+#testing_table {
+  margin: 50px 0 50px 10px;
+}
+#tabulator-lib {
+  display: none;
+}
+#usersTable_example table,
+#usersTable table {
+  border: 1px solid #000000;
+}
+#usersTable_example table thead,
+#usersTable table thead {
+  background: #d9fff7;
+}
+#usersTable_example table tbody tr:nth-child(odd),
+#usersTable table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+#usersTable {
+  margin-top: 50px;
+}
+#usersTable, #testing_table, #tabulator-lib {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#tabulator-lib a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
